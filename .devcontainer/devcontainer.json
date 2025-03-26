@@ -15,4 +15,7 @@
 	"containerEnv": {
 		"UV_PROJECT_ENVIRONMENT": "/home/vscode/.venv"
 	},
+	"mounts": [
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.config/git,target=/home/vscode/.config/git,type=bind,consistency=cached"
+	]
 }
